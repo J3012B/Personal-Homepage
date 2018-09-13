@@ -1237,6 +1237,10 @@ span.border.two:after {
     color: #0071D4;
 	text-decoration:none;
 }
+.copy_right p.info {
+	font-size: 20px;
+	color:white;
+}
 /*-- //contact --*/
 #toTop {
 	display: none;
