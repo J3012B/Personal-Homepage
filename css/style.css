@@ -205,8 +205,24 @@ ul.address-text b {
     color:#fff;
 }
 /*--social-icons--*/
+ul.social-icons {
+	list-style: none;
+	padding: 0;
+	margin: 30px auto;
+}
+.social-icons li {
+	display: inline-block;
+	margin: auto 10px;
+}
+.social-icons li a i {
+	color: white;
+}
+.social-icons li a i:hover {
+	color: #0071D4;
+}
+/*
 ul.social-icons{
-	    display: block;
+	display: block;
     padding: 0;
     background:#0071D4;
     padding:1.3em 0;
@@ -247,12 +263,12 @@ ul.social-icons{
       background-position: 3px -62px;
 }
 .social-icons li a.dott {
-background-position: 3px -94px;
+	background-position: 3px -94px;
 }
 .social-icons li a:hover::before {
     border-color: #0071D4;
-	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-}
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}*/
 /*-- wellcome-note --*/
 .welcome-note{
 	margin:3em 0;
