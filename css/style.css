@@ -1229,11 +1229,12 @@ span.border.two:after {
 	bottom: 14px;
 	right: 3%;
 	overflow: hidden;
-	width: 32px;
-	height: 32px;
+	width: 64px;
+	height: 64px;
 	border: none;
 	text-indent: 100%;
 	background: url("../images/movetop.png") no-repeat 0px 0px;
+  background-size: contain;
 }
 #toTopHover {
 	width: 32px;
